@@ -16,11 +16,17 @@
   <!--filter met keuzes-->
   <select id="type-filter">
     <option value="">Alles</option>
-    <option value="tv">serie</option>
+    <option value="tv">TV</option>
     <option value="movie">movie</option>
+    <option value="special">special</option>
   </select>
-
   <button id="search-button">Zoek</button>
+
+  <select id="sort-filter">
+    <option value="">sorteer op</option>
+    <option value="title">titel (A-Z)</option>
+    <option value="score">score (hoog-laag)</option>
+  </select>
 
   <section id="anime-container"></section>
   <script type="module" src="./src/js/main.js"></script>
