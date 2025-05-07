@@ -1,10 +1,10 @@
 async function fetchAnime(searchTerm = "naruto" , typefilter = "") {
     let url = `https://api.jikan.moe/v4/anime?q=${searchTerm}`;
 if (typefilter !== ""){
-    url += `&genre=${typeFilter}`;
+    url += `&type=${typeFilter}`;
 }
     try {
-      const response = await fetch('https://api.jikan.moe/v4/anime?q=naruto');
+      const response = await fetch(url);
       const json = await response.json();
       const animeList = json.data;
   
@@ -19,6 +19,7 @@ if (typefilter !== ""){
           <img src="${anime.images.jpg.image_url}" alt="${anime.title}" />
           <h2>${anime.title}</h2>
           <p>Score: ${anime.score || "Geen score"}</p>
+          <p>Type: ${anime.type}</p>
         `;
   
         container.appendChild(animeItem);
