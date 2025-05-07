@@ -8,6 +8,12 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "") {
         const json = await response.json();
         const animeList = json.data;
 
+        if (sortBy == "title") {
+            animeList = animeList.sort((a, b) => a.title.localeCompare(b.title));
+        } else if (sortBy == "score") {
+            animeList = animeList.sort((a, b) => b.score - a.score);
+        }
+
         const container = document.getElementById("anime-container");
         container.innerHTML = "";
 
