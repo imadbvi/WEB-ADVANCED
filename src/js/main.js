@@ -1,4 +1,4 @@
-async function fetchAnime(searchTerm = "naruto", typeFilter = "") {
+async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "") {
     let url = `https://api.jikan.moe/v4/anime?q=${searchTerm}`;
     if (typeFilter !== "") {
         url += `&type=${typeFilter}`;
@@ -6,12 +6,12 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "") {
     try {
         const response = await fetch(url);
         const json = await response.json();
-        const animeList = json.data;
+        let animeList = json.data;
 
-        if (sortBy == "title") {
-            animeList = animeList.sort((a, b) => a.title.localeCompare(b.title));
-        } else if (sortBy == "score") {
-            animeList = animeList.sort((a, b) => b.score - a.score);
+        if (sortFilter === "title") {
+            animeList.sort((a, b) => a.title.localeCompare(b.title));
+        } else if (sortFilter === "score") {
+            animeList.sort((a, b) => (b.score || 0) - (a.score || 0));
         }
 
         const container = document.getElementById("anime-container");
@@ -44,6 +44,5 @@ document.getElementById("search-button").addEventListener("click", () => {
     const sortFilter = document.getElementById("sort-filter").value;
     fetchAnime(searchTerm, typeFilter, sortFilter);
 });
-
 
 
