@@ -1,4 +1,4 @@
-async function fetchAnime() {
+async function fetchAnime(searchTerm = "naruto") {
     try {
       const response = await fetch('https://api.jikan.moe/v4/anime?q=naruto');
       const json = await response.json();
@@ -27,7 +27,10 @@ async function fetchAnime() {
   
   fetchAnime();
 
-  document.getElementById("search-button").addEventListener("click");
+  document.getElementById("search-button").addEventListener("click", () => {
+    const searchTerm = document.getElementById("search-input").value;
+    fetchAnime(searchTerm);
+  });
 
 
   
