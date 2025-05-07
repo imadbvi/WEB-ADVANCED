@@ -26,4 +26,6 @@ async function fetchAnime() {
   }
   
   fetchAnime();
+
+
   
