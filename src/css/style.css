@@ -3,19 +3,19 @@
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
-  }
-  
-  .anime-item {
+}
+
+.anime-item {
     border: 1px solid #ccc;
     padding: 0.5rem;
     width: 200px;
     text-align: center;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  .anime-item img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.anime-item img {
     max-width: 100%;
     border-radius: 4px;
-  }
+}
