@@ -41,7 +41,9 @@ fetchAnime();
 document.getElementById("search-button").addEventListener("click", () => {
     const searchTerm = document.getElementById("search-input").value;
     const typeFilter = document.getElementById("type-filter").value;
-    fetchAnime(searchTerm, typeFilter);
+    const sortFilter = document.getElementById("sort-filter").value;
+    fetchAnime(searchTerm, typeFilter, sortFilter);
 });
+
 
 
