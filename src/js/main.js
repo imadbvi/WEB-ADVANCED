@@ -35,7 +35,7 @@ if (typefilter !== ""){
   document.getElementById("search-button").addEventListener("click", () => {
     const searchTerm = document.getElementById("search-input").value;
     const typeFilter = document.getElementById("type-filter").value;
-    fetchAnime(searchTerm);
+    fetchAnime(searchTerm,typeFilter);
   });
 
 
