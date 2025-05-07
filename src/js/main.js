@@ -1,4 +1,8 @@
-async function fetchAnime(searchTerm = "naruto") {
+async function fetchAnime(searchTerm = "naruto" , typefilter = "") {
+    let url = `https://api.jikan.moe/v4/anime?q=${searchTerm}`;
+if (typefilter !== ""){
+    url += `&genre=${typeFilter}`;
+}
     try {
       const response = await fetch('https://api.jikan.moe/v4/anime?q=naruto');
       const json = await response.json();
@@ -21,7 +25,7 @@ async function fetchAnime(searchTerm = "naruto") {
       });
   
     } catch (error) {
-      console.error("Fout bij ophalen anime:", error);
+      console.error("Er is iets misgelopen:", error);
     }
   }
   
