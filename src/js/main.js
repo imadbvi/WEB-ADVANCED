@@ -5,7 +5,7 @@ async function fetchAnime() {
       const animeList = json.data;
   
       const container = document.getElementById("anime-container");
-      container.innerHTML = ""; // Leegmaken
+      container.innerHTML = ""; 
   
       animeList.forEach(anime => {
         const animeItem = document.createElement("div");
@@ -26,6 +26,8 @@ async function fetchAnime() {
   }
   
   fetchAnime();
+
+  document.getElementById("search-button").addEventListener("click");
 
 
   
