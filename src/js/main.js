@@ -1,6 +1,6 @@
-async function fetchAnime(searchTerm = "naruto", typefilter = "") {
+async function fetchAnime(searchTerm = "naruto", typeFilter = "") {
     let url = `https://api.jikan.moe/v4/anime?q=${searchTerm}`;
-    if (typefilter !== "") {
+    if (typeFilter !== "") {
         url += `&type=${typeFilter}`;
     }
     try {
