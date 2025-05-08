@@ -26,8 +26,13 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
           <h2>${anime.title}</h2>
           <p>Score: ${anime.score || "Geen score"}</p>
           <p>Type: ${anime.type}</p>
-          <button onclick= 'addFavorite(${anime.mal_id})'>Favoriet</button>
+
         `;
+
+            const favButton = document.createElement("button");
+            favButton.textContent = "favoriet";
+            favButton.addEventListener("click", () => addFavorite(anime));
+            animeItem.appendChild(favButton);
 
             container.appendChild(animeItem);
         });
@@ -39,23 +44,24 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
 
 fetchAnime();
 
-function addFavorite(malId) {
-    fetch(`https://api.jikan.moe/v4/anime/${malId}`)
-    .then(res => res.json())
-    .then(data => {
-        let anime = data.data;
-        let favo = JSON.parse(localStorage.getItem("favoriet")) || [];
+function addFavorite(anime) {
+    if (!anime || !anime.mal_id) {
+        console.error("Geen geldige anime ontvangen:", anime);
+        return;
+      }
 
-        if (favo.some(f => f.mal_id === malId)) {
-            alert("Deze anime staal al in je favorieten!");
-            return;
-        }
-
-        favo.psuh(anime);
-        localStorage.setItem("favoriet", JSON.stringify(favo));
-        alert("Toegevoegd bij favorieten!");
-    });
-}
+    const favo = JSON.parse(localStorage.getItem("favoriet")) || [];
+  
+    if (favo.some(f => f.mal_id === anime.mal_id)) {
+      alert("Deze anime staat al in je favorieten!");
+      return;
+    }
+  
+    favo.push(anime);
+    localStorage.setItem("favoriet", JSON.stringify(favo));
+    alert("Toegevoegd bij favorieten!");
+  }
+  
 
 
 document.getElementById("search-button").addEventListener("click", () => {
