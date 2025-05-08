@@ -26,7 +26,7 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
           <h2>${anime.title}</h2>
           <p>Score: ${anime.score || "Geen score"}</p>
           <p>Type: ${anime.type}</p>
-          <button onclick= 'addFavorite(${anime.mal_id})'> Favoriet </button>
+          <button onclick= 'addFavorite(${anime.mal_id})'>Favoriet</button>
         `;
 
             container.appendChild(animeItem);
@@ -38,6 +38,25 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
 }
 
 fetchAnime();
+
+function addFavorite(malId) {
+    fetch(`https://api.jikan.moe/v4/anime/${malId}`)
+    .then(res => res.json())
+    .then(data => {
+        let anime = data.data;
+        let favo = JSON.parse(localStorage.getItem("favoriet")) || [];
+
+        if (favo.some(f => f.mal_id === malId)) {
+            alert("Deze anime staal al in je favorieten!");
+            return;
+        }
+
+        favo.psuh(anime);
+        localStorage.setItem("favoriet", JSON.stringify(favo));
+        alert("Toegevoegd bij favorieten!");
+    });
+}
+
 
 document.getElementById("search-button").addEventListener("click", () => {
     const searchTerm = document.getElementById("search-input").value;
