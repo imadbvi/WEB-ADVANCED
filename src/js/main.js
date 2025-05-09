@@ -72,3 +72,17 @@ document.getElementById("search-button").addEventListener("click", () => {
 });
 
 
+
+document.getElementById("show-favorites").addEventListener("click", () => {
+    const favorites = JSON.parse(localStorage.getItem("favoriet")) || [];
+
+    const container = document.getElementById("anime-container");
+    container.innerHTML = "";
+
+    if (favorites.length === 0) {
+        container.innerHTML = "<p>Geen favorieten gevonden.</p>";
+        return;
+    }
+
+    
+   
