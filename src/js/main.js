@@ -85,4 +85,17 @@ document.getElementById("show-favorites").addEventListener("click", () => {
     }
 
     
-   
+    favorites.forEach(anime => {
+        const animeItem = document.createElement("div");
+        animeItem.classList.add("anime-item");
+
+        animeItem.innerHTML = `
+            <img src="${anime.images.jpg.image_url}" alt="${anime.title}" />
+            <h2>${anime.title}</h2>
+            <p>Score: ${anime.score || "Geen score"}</p>
+            <p>Type: ${anime.type}</p>
+        `;
+
+        container.appendChild(animeItem);
+    });
+});
