@@ -5,6 +5,11 @@
     padding: 1rem;
 }
 
+body{
+background-color: blanchedalmond;
+font-family:sans-serif;
+
+}
 .anime-item {
     border: 1px solid #ccc;
     padding: 0.5rem;
@@ -19,3 +24,4 @@
     max-width: 100%;
     border-radius: 4px;
 }
+

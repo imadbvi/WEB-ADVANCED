@@ -12,6 +12,10 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
             animeList.sort((a, b) => a.title.localeCompare(b.title));
         } else if (sortFilter === "score") {
             animeList.sort((a, b) => (b.score || 0) - (a.score || 0));
+        } else if (sortFilter === "populariteit") {
+            animeList.sort((a, b) => (a.popularity || 0) - (b.popularity || 0)); 
+        } else if (sortFilter === "afleveringen") {
+            animeList.sort((a, b) => (b.episodes || 0) - (a.episodes || 0)); 
         }
 
         const container = document.getElementById("anime-container");
