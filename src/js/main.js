@@ -27,6 +27,7 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
           <p>Score: ${anime.score || "Geen score"}</p>
           <p>Type: ${anime.type}</p>
           <p>Afleveringen: ${anime.episodes || "Onbekend"}</p>
+          <p>Populariteit: ${anime.popularity}</p>
 
         `;
 
