@@ -13,9 +13,9 @@ async function fetchAnime(searchTerm = "naruto", typeFilter = "", sortFilter = "
         } else if (sortFilter === "score") {
             animeList.sort((a, b) => (b.score || 0) - (a.score || 0));
         } else if (sortFilter === "populariteit") {
-            animeList.sort((a, b) => (a.popularity || 0) - (b.popularity || 0)); 
+            animeList.sort((a, b) => (a.popularity || 0) - (b.popularity || 0));
         } else if (sortFilter === "afleveringen") {
-            animeList.sort((a, b) => (b.episodes || 0) - (a.episodes || 0)); 
+            animeList.sort((a, b) => (b.episodes || 0) - (a.episodes || 0));
         }
 
         const container = document.getElementById("anime-container");
@@ -54,20 +54,20 @@ function addFavorite(anime) {
     if (!anime || !anime.mal_id) {
         console.error("Geen geldige anime ontvangen:", anime);
         return;
-      }
+    }
 
     const favo = JSON.parse(localStorage.getItem("favoriet")) || [];
-  
+
     if (favo.some(f => f.mal_id === anime.mal_id)) {
-      alert("Deze anime staat al in je favorieten!");
-      return;
+        alert("Deze anime staat al in je favorieten!");
+        return;
     }
-  
+
     favo.push(anime);
     localStorage.setItem("favoriet", JSON.stringify(favo));
     alert("Toegevoegd bij favorieten!");
-  }
-  
+}
+
 
 
 document.getElementById("search-button").addEventListener("click", () => {
@@ -90,7 +90,7 @@ document.getElementById("show-favorites").addEventListener("click", () => {
         return;
     }
 
-    
+
     favorites.forEach(anime => {
         const animeItem = document.createElement("div");
         animeItem.classList.add("anime-item");
@@ -100,8 +100,15 @@ document.getElementById("show-favorites").addEventListener("click", () => {
             <h2>${anime.title}</h2>
             <p>Score: ${anime.score || "Geen score"}</p>
             <p>Type: ${anime.type}</p>
+            <p>Afleveringen: ${anime.episodes || "Onbekend"}</p>
+            <p>Populariteit: ${anime.popularity || "?"}</p>
         `;
 
+        const removeButton = document.createElement("button");
+        removeButton.textContent = "🗑 Verwijder uit favorieten";
+        removeButton.addEventListener("click", () => removeFavorite(anime.mal_id));
+        animeItem.appendChild(removeButton);
+       
         container.appendChild(animeItem);
     });
 });
