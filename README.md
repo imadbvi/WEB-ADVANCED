@@ -48,11 +48,14 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
 
  <h2>🖼️ Screenshots</h2>
    <h3>🔹 Startpagina</h3>
-   
+   ![startpagina-screen](https://github.com/user-attachments/assets/86f2a99a-ca30-462d-b708-b02f89549c87)
+
    <h3>🔹 Zoekresultaten</h3>
-   
+   ![zoekresultaat-screen](https://github.com/user-attachments/assets/108dc474-87f9-437c-bec3-7b41bfe81f66)
+
    <h3>🔹 Favorietenlijst</h3> 
-   
+   ![favorietenlijst-screen](https://github.com/user-attachments/assets/66815ebf-1902-4d5a-bcb6-c93969da3761)
+
 
  <h2>📚 Bronnen</h2>
  
