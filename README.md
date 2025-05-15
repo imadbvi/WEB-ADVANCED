@@ -49,15 +49,10 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
  <h2>🖼️ Screenshots</h2>
    <h3>🔹 Startpagina</h3>
    
-![Startpagina](.\screenshot\startpagina-screen.png)
-
    <h3>🔹 Zoekresultaten</h3>
    
-![Resultaten](./screenshot/zoekresultaat-screen.png)
-
    <h3>🔹 Favorietenlijst</h3> 
    
-![Favorieten](./screenshot/favorietenlijst-screen.png)
 
  <h2>📚 Bronnen</h2>
  
