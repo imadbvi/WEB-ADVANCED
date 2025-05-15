@@ -96,5 +96,26 @@ body {
     font-size: 0.95rem;
   }
   
+  /* Favoriet/verwijder-knoppen */
+  .anime-item button {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .anime-item button:hover {
+    background-color: #218838;
+  }
+  
+  .anime-item button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .anime-item button:last-child:hover {
+    background-color: #c82333;
+  }
   
   
