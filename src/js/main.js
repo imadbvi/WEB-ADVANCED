@@ -105,10 +105,21 @@ document.getElementById("show-favorites").addEventListener("click", () => {
         `;
 
         const removeButton = document.createElement("button");
-        removeButton.textContent = "🗑 Verwijder uit favorieten";
+        removeButton.textContent = "Verwijderen";
         removeButton.addEventListener("click", () => removeFavorite(anime.mal_id));
         animeItem.appendChild(removeButton);
        
         container.appendChild(animeItem);
     });
 });
+
+
+function removeFavorite(malId) {
+    const favorieten = JSON.parse(localStorage.getItem("favoriet")) || [];
+    const nieuweLijst = favorieten.filter(anime => anime.mal_id !== malId);
+  
+    localStorage.setItem("favoriet", JSON.stringify(nieuweLijst));
+    alert("Verwijderd uit favorieten!");
+  
+    document.getElementById("show-favorites").click(); 
+  }
