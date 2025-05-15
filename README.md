@@ -49,7 +49,7 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
  <h2>🖼️ Screenshots</h2>
    <h3>🔹 Startpagina</h3>
    
-![Startpagina](C:\Users\imadb\mijn-project\screenshot\startpagina-screen.png)
+![Startpagina](.\screenshot\startpagina-screen.png)
 
    <h3>🔹 Zoekresultaten</h3>
    
