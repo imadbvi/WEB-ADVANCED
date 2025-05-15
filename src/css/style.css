@@ -56,4 +56,45 @@ body {
     background-color: #0056b3;
   }
   
+  /* Anime-container stijl */
+  #anime-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Anime kaart */
+  .anime-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .anime-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .anime-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .anime-item h2 {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #444;
+  }
+  
+  .anime-item p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  
   
