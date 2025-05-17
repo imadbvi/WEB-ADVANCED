@@ -40,6 +40,17 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
 
 <h2>📦 Installatiehandleiding</h2>
 
+Volg deze stappen om het project lokaal op te starten met Vite:
+<h3>Repository klonen</h3>
+git clone https://github.com/imadbvi/WEB-ADVANCED.git
+
+cd WEB-ADVANCED
+<h3>Dependencies installeren</h3>
+npm install
+<h3>Development server starten</h3>
+npm run dev
+<h3>Open daarna je browser op:</h3>
+http://localhost:5173
 
 <h2>🌐 Gebruikte API</h2>
 
@@ -47,7 +58,79 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
      https://docs.api.jikan.moe
 
  <h2>🖼️ Screenshots</h2>
+   <h3>🔹 Startpagina</h3>
+   ![startpagina-screen](https://github.com/user-attachments/assets/86f2a99a-ca30-462d-b708-b02f89549c87)
+
+   <h3>🔹 Zoekresultaten</h3>
+   ![zoekresultaat-screen](https://github.com/user-attachments/assets/108dc474-87f9-437c-bec3-7b41bfe81f66)
+
+   <h3>🔹 Favorietenlijst</h3> 
+   ![favorietenlijst-screen](https://github.com/user-attachments/assets/66815ebf-1902-4d5a-bcb6-c93969da3761)
+
 
 
  <h2>📚 Bronnen</h2>
+ Bro Code. (2021, 1 september). Learn HTML in 1 hour 🌎 [Video]. YouTube. https://www.youtube.com/watch?v=HD13eq_Pmp8
  
+ Bro Code. (2021b, september 8). Learn CSS in 1 hour 🎨 [Video]. YouTube. https://www.youtube.com/watch?v=wRNinF7YQqQ
+ 
+ Traversy Media. (2019, 13 maart). JavaScript crash course for beginners [Video]. YouTube. https://www.youtube.com/watch?v=hdI2bqOjy3c
+ 
+ W3Schools.com. (z.d.). https://www.w3schools.com/html/
+ 
+ W3Schools.com. (z.d.-b). https://www.w3schools.com/js/DEFAULT.asp
+ 
+ W3Schools.com. (z.d.-c). https://www.w3schools.com/css/
+ 
+ @irfanDahir. (z.d.). Jikan REST API v4 Docs. https://docs.api.jikan.moe/
+ 
+ Redirecting. (z.d.). https://canvas.ehb.be/courses/39258
+ 
+ ![Screenshot 2025-05-17 121344](https://github.com/user-attachments/assets/38831c73-5ac0-4d4f-950a-cca0b52a1e48)
+ 
+ ![Screenshot 2025-05-17 121616](https://github.com/user-attachments/assets/de308374-8efc-4644-8dbf-306d2d72ff0d)
+ 
+ ![Screenshot 2025-05-17 122143](https://github.com/user-attachments/assets/d72a56d0-fd06-49b0-b339-440d5ee878cc)
+ 
+ ![Screenshot 2025-05-17 122209](https://github.com/user-attachments/assets/52791e76-73fc-41e5-bedf-2b97af8babfd)
+
+ ![Screenshot 2025-05-17 123114](https://github.com/user-attachments/assets/a6fa6946-67ce-433e-a4fd-e2090b1a40d7)
+
+ ![Screenshot 2025-05-17 123132](https://github.com/user-attachments/assets/26ef28ed-7771-4bbc-94b4-7fe440613aa8)
+
+ ![Screenshot 2025-05-17 123255](https://github.com/user-attachments/assets/8cb5ffad-e964-4727-b247-542e3da150af)
+
+![Screenshot 2025-05-17 123624](https://github.com/user-attachments/assets/e4a064e9-7569-4a2d-9f6c-0eef9ea49886)
+
+![Screenshot 2025-05-17 123638](https://github.com/user-attachments/assets/29b14b2d-1dcf-4c4f-9536-11ade7d4d78a)
+
+![Screenshot 2025-05-17 123655](https://github.com/user-attachments/assets/8293cf85-8466-4a75-b4ac-f964ee96d822)
+
+![Screenshot 2025-05-17 123708](https://github.com/user-attachments/assets/7fd6b361-5596-441b-83e5-5a968761ca81)
+
+![Screenshot 2025-05-17 123721](https://github.com/user-attachments/assets/7f5dafae-bac6-4522-8dc5-723f6afddd61)
+
+![Screenshot 2025-05-17 123945](https://github.com/user-attachments/assets/f78f93bc-5cfa-4d89-b954-26cba6cd0a5e)
+
+![Screenshot 2025-05-17 123957](https://github.com/user-attachments/assets/30a3d4fe-3f5a-4078-a72f-7ee091e63330)
+
+![Screenshot 2025-05-17 124637](https://github.com/user-attachments/assets/417488f6-544c-4f2b-b5b2-da99836c156a)
+
+![Screenshot 2025-05-17 124708](https://github.com/user-attachments/assets/dfd9a904-2cbd-4e0f-b3c2-d8746f5d4eba)
+
+![Screenshot 2025-05-17 124726](https://github.com/user-attachments/assets/d56b6e49-af9d-40e8-a236-1a35ff3ba96d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
