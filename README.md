@@ -43,7 +43,8 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
 Volg deze stappen om het project lokaal op te starten met Vite:
 <h3>Repository klonen</h3>
 git clone https://github.com/imadbvi/WEB-ADVANCED.git
-cd 
+
+cd WEB-ADVANCED
 <h3>Dependencies installeren</h3>
 npm install
 <h3>Development server starten</h3>
