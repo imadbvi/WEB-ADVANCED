@@ -69,4 +69,19 @@ http://localhost:5173
 
 
  <h2>📚 Bronnen</h2>
- 
+ https://www.youtube.com/watch?v=HD13eq_Pmp8
+ https://www.youtube.com/watch?v=wRNinF7YQqQ
+ https://www.youtube.com/watch?v=hdI2bqOjy3c
+ https://www.w3schools.com/html/
+ https://www.w3schools.com/js/DEFAULT.asp
+ https://www.w3schools.com/css/
+ https://docs.api.jikan.moe
+ https://canvas.ehb.be/courses/39258
+ ![Screenshot 2025-05-17 121344](https://github.com/user-attachments/assets/38831c73-5ac0-4d4f-950a-cca0b52a1e48)
+ ![Screenshot 2025-05-17 121616](https://github.com/user-attachments/assets/de308374-8efc-4644-8dbf-306d2d72ff0d)
+ ![Screenshot 2025-05-17 122143](https://github.com/user-attachments/assets/d72a56d0-fd06-49b0-b339-440d5ee878cc)
+ ![Screenshot 2025-05-17 122209](https://github.com/user-attachments/assets/52791e76-73fc-41e5-bedf-2b97af8babfd)
+
+
+
+
