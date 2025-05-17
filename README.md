@@ -40,6 +40,10 @@ Gebruikers kunnen zoeken op naam, filteren op type, sorteren op score, afleverin
 
 <h2>📦 Installatiehandleiding</h2>
 
+Volg deze stappen om het project lokaal op te starten met Vite:
+<h3>Repository klonen</h3>
+git clone 
+cd
 
 <h2>🌐 Gebruikte API</h2>
 
