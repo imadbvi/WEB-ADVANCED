@@ -70,16 +70,27 @@ http://localhost:5173
 
  <h2>📚 Bronnen</h2>
  Bro Code. (2021, 1 september). Learn HTML in 1 hour 🌎 [Video]. YouTube. https://www.youtube.com/watch?v=HD13eq_Pmp8
+ 
  Bro Code. (2021b, september 8). Learn CSS in 1 hour 🎨 [Video]. YouTube. https://www.youtube.com/watch?v=wRNinF7YQqQ
+ 
  Traversy Media. (2019, 13 maart). JavaScript crash course for beginners [Video]. YouTube. https://www.youtube.com/watch?v=hdI2bqOjy3c
+ 
  W3Schools.com. (z.d.). https://www.w3schools.com/html/
+ 
  W3Schools.com. (z.d.-b). https://www.w3schools.com/js/DEFAULT.asp
+ 
  W3Schools.com. (z.d.-c). https://www.w3schools.com/css/
+ 
  @irfanDahir. (z.d.). Jikan REST API v4 Docs. https://docs.api.jikan.moe/
+ 
  Redirecting. (z.d.). https://canvas.ehb.be/courses/39258
+ 
  ![Screenshot 2025-05-17 121344](https://github.com/user-attachments/assets/38831c73-5ac0-4d4f-950a-cca0b52a1e48)
+ 
  ![Screenshot 2025-05-17 121616](https://github.com/user-attachments/assets/de308374-8efc-4644-8dbf-306d2d72ff0d)
+ 
  ![Screenshot 2025-05-17 122143](https://github.com/user-attachments/assets/d72a56d0-fd06-49b0-b339-440d5ee878cc)
+ 
  ![Screenshot 2025-05-17 122209](https://github.com/user-attachments/assets/52791e76-73fc-41e5-bedf-2b97af8babfd)
 
 
