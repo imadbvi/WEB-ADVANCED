@@ -129,3 +129,14 @@ function removeFavorite(malId) {
     // Vernieuw de favorietenweergave
     document.getElementById("show-favorites").click(); // lijst opnieuw tonen
 }
+
+document.getElementById("home-button").addEventListener("click", () => {
+    // maakt de zoekvelden en filtreervelden leeg
+    document.getElementById("search-input").value = "";
+    document.getElementById("type-filter").value = "";
+    document.getElementById("sort-filter").value = "";
+  
+    // herlaad animelijst
+    fetchAnime();
+  });
+  
