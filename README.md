@@ -59,14 +59,16 @@ http://localhost:5173
 
  <h2>🖼️ Screenshots</h2>
    <h3>🔹 Startpagina</h3>
-   ![startpagina-screen](https://github.com/user-attachments/assets/86f2a99a-ca30-462d-b708-b02f89549c87)
+   
+   ![Screenshot 2025-05-20 160413](https://github.com/user-attachments/assets/04ae4de8-798d-469a-bbd7-f3e4f5cc136e)
 
    <h3>🔹 Zoekresultaten</h3>
-   ![zoekresultaat-screen](https://github.com/user-attachments/assets/108dc474-87f9-437c-bec3-7b41bfe81f66)
+   
+   ![Screenshot 2025-05-20 160441](https://github.com/user-attachments/assets/30f5f91f-26c6-4e2c-8c93-6e3e5a5d672b)
 
    <h3>🔹 Favorietenlijst</h3> 
-   ![favorietenlijst-screen](https://github.com/user-attachments/assets/66815ebf-1902-4d5a-bcb6-c93969da3761)
 
+   ![Screenshot 2025-05-20 160508](https://github.com/user-attachments/assets/7a879108-9fb6-4345-b0eb-019ae5466fd2)
 
 
  <h2>📚 Bronnen</h2>
@@ -85,6 +87,8 @@ http://localhost:5173
  @irfanDahir. (z.d.). Jikan REST API v4 Docs. https://docs.api.jikan.moe/
  
  Redirecting. (z.d.). https://canvas.ehb.be/courses/39258
+
+ IK DEEL MET MIJN VRIEND EEN CHATGPT PLUS ACCOUNT!!! DIT IS DE REDEN DAT ER ELIAS STAAT EN NIET IMAD ALS IK IETS OPZOEK!!!
  
  ![Screenshot 2025-05-17 121344](https://github.com/user-attachments/assets/38831c73-5ac0-4d4f-950a-cca0b52a1e48)
  
