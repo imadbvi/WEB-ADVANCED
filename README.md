@@ -87,6 +87,8 @@ http://localhost:5173
  @irfanDahir. (z.d.). Jikan REST API v4 Docs. https://docs.api.jikan.moe/
  
  Redirecting. (z.d.). https://canvas.ehb.be/courses/39258
+
+ IK DEEL MET MIJN VRIEND EEN CHATGPT PLUS ACCOUNT!!! DIT IS DE REDEN DAT ER ELIAS STAAT EN NIET IMAD ALS IK IETS OPZOEK!!!
  
  ![Screenshot 2025-05-17 121344](https://github.com/user-attachments/assets/38831c73-5ac0-4d4f-950a-cca0b52a1e48)
  
